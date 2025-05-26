@@ -15,10 +15,8 @@ const server = app.listen(PORT, () => {
 
 const wss = new WebSocket.Server({ server });
 
-// Replace with your Dialogflow project ID
 const projectId = 'flightbookingbot-cdyx';
 
-// Replace with your service account path
 const sessionClient = new dialogflow.SessionsClient({
   keyFilename: path.join(__dirname, 'service-account.json')
 });
