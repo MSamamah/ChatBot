@@ -1,6 +1,4 @@
-Your README file looks great as a start! Here's a polished and more complete version with some suggestions to make it clearer and more helpful for users and evaluators:
 
----
 
 # ✈️ Flight Booking Chat Application
 
@@ -32,8 +30,8 @@ A real-time chat application that enables users to interact with a flight bookin
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/MSamamah/flight-booking-chat.git
-cd flight-booking-chat
+git clone https://github.com/MSamamah/ChatBot.git
+cd ChatBot
 ```
 
 ### 2. Install Dependencies
@@ -73,7 +71,7 @@ The server will start on **[http://localhost:8080](http://localhost:8080)**.
 ## 📄 Project Structure
 
 ```
-flight-booking-chat/
+ChatBot/
 ├── public/
 │   ├── index.html
 │   └── styles.css
